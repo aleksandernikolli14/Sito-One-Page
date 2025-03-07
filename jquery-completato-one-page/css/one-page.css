@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+   /* overflow: hidden;*/
+}
+
+.box{
+    height: 100vh;
+    position: relative;
+}
+
+.box h2{
+    position: absolute;
+    margin:0;
+    font-size:4em;
+    left:50%;
+    top:50%;    
+    transform:translate(-50%,-50%);
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#home{
+    background: #b9923a;
+}
+
+#chi{
+    background: #3ab94e;
+}
+
+#cosa{
+    background: #3a7eb9;
+}
+
+#contatti{
+    background: #7e3ab9;
+}
+
+nav{
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    position: fixed;
+    z-index: 5;
+    background: #fff;
+    width: 100%;
+}
+
+
+nav ul{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0 25px;
+}
+
+nav ul li a{
+    display: block;
+    padding: 15px 0;
+    font-size: 2em;
+    text-decoration: none;
+    color:#000;
+}
+
+#tornaSu{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    padding-top: 3px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    z-index: 10;
+    background: #000;
+    color:#FFF;
+    right:20px;    
+    border-radius:50%;
+    cursor: pointer;
+    /*transition: 1s;*/
+    bottom:-100px;
+}
+
+
+
